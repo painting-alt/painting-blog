@@ -9,21 +9,21 @@ import MyInfo from '@/views/web/about/MyInfo'
 export const API_BASE_URL = 'http://localhost:6060'
 
 // project config
-export const HEADER_BLOG_NAME = '郭大大的博客' // header title 显示的名字
+export const HEADER_BLOG_NAME = 'painting的博客' // header title 显示的名字
 
 // === sidebar
 export const SIDEBAR = {
   avatar: require('@/assets/images/avatar.jpeg'), // 侧边栏头像
-  title: '郭大大', // 标题
+  title: 'painting', // 标题
   subTitle: '学而知不足', // 子标题
   // 个人主页
   homepages: {
     github: {
-      link: 'https://github.com/alvin0216',
+      link: 'https://github.com/painting-alt',
       icon: <Icon type='github' theme='filled' className='homepage-icon' />
     },
     juejin: {
-      link: 'https://juejin.im/user/5acac6c4f265da2378408f92',
+      link: 'https://juejin.cn/user/69989318535031',
       icon: <SvgIcon type='iconjuejin' className='homepage-icon' />
     }
   }
