@@ -10,10 +10,10 @@ module.exports = {
     semi: ['error', 'never'], // 不使用分号
     // 'import/no-unresolved': 'off,', // 取消自动解析路径，以此开启alias的别名路径设置
     'accessor-pairs': 2,
-    'arrow-spacing': [2, {
-      'before': true,
-      'after': true
-    }],
+    // 'arrow-spacing': [2, {
+    //   'before': true,
+    //   'after': true
+    // }],
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs', {
       'allowSingleLine': true
@@ -22,10 +22,10 @@ module.exports = {
       'properties': 'always'
     }],
     'comma-dangle': 0,
-    'comma-spacing': [2, {
-      'before': false,
-      'after': true
-    }],
+    // 'comma-spacing': [2, {
+    //   'before': false,
+    //   'after': true
+    // }],
     'comma-style': [2, 'last'],
     'constructor-super': 2,
     'curly': [2, 'multi-line'],

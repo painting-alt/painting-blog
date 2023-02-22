@@ -12,10 +12,16 @@
   margin-bottom: 10px;
   transition: all 0.2s linear;
 }
+.app-home .app-home-list-isalert{
+  background-color: rgb(255 0 0 / 72%);
+}
 .app-home .app-home-list-item:hover {
   background: #effbff;
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
   transform: translate3d(0, -5px 0);
+}
+.app-home .app-home-list-isalert:hover{
+  background-color: rgb(255 0 0 / 48%);
 }
 .app-home .app-home-list-item .title {
   color: #394d69;

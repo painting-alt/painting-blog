@@ -179,6 +179,7 @@ class ArticleController {
         let create_time=change_obj.createdAt;
         let calcDay=calcDayFromNow(create_time);
         if(memoryDay.includes(calcDay)){
+          change_obj.calcDay = calcDay;
           change_obj.isAlert=true;
         }
          

@@ -48,7 +48,7 @@ const App = props => {
   }
 
   const children = renderRoutes(routes, '/')
-  console.log("==children-->", children)
+  // console.log("==children-->", children)
   return (
     <BrowserRouter>
       {children}
